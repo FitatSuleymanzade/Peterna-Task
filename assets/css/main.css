@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 5px;
+  background-color: black;
+}
+header .navvv {
+  font-size: 30px;
+  font-weight: 600;
+}
+header .collapseDiv {
+  justify-content: flex-end;
+}
+header .collapseDiv a {
+  color: white;
+}
+
+#firstsec {
+  width: 100%;
+  background-color: #00798A;
+  padding: 30px;
+}
+#firstsec .container {
+  width: 95%;
+  padding: 30px;
+}
+#firstsec .container .row {
+  padding: 30px;
+}
+#firstsec .container .row .txt {
+  align-items: center;
+  justify-content: center;
+}
+#firstsec .container .row .txt h1 {
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  padding-top: 30px;
+}
+#firstsec .container .row .txt h3 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding-top: 20px;
+}
+#firstsec .container .row .txt p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding-top: 30px;
+}
+#firstsec .container .row .txt .dvbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+#firstsec .container .row .txt .dvbtn button {
+  color: white;
+  background-color: #D2322D;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#secondsec {
+  width: 100%;
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6RjkYcDsIRRSUWo3nZ7IcsIuEs_ThGPLT8EeMFe6YwaP6Tjwg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#secondsec .container {
+  width: 95%;
+  padding-top: 30px;
+}
+#secondsec .container .secondtxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#secondsec .container .secondtxt h4 {
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+#secondsec .container .secondtxt p {
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+#secondsec .container .suretext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#secondsec .container .suretext .txtt {
+  background-color: #00798A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+#secondsec .container .suretext .txtt i {
+  padding-top: 30px;
+}
+#secondsec .container .suretext .txtt h5 {
+  padding-top: 30px;
+  font-size: 25px;
+  color: white;
+}
+#secondsec .container .suretext .txtt p {
+  text-align: center;
+  padding: 5px;
+  font-size: 19px;
+  color: white;
+}
+#secondsec .container .loremtxt {
+  padding-top: 30px;
+}
+#secondsec .container .loremtxt h4 {
+  padding-top: 30px;
+  font-size: 35px;
+  color: rgb(81, 81, 81);
+  font-weight: 400;
+}
+#secondsec .container .loremtxt p {
+  padding-top: 30px;
+  font-size: 17px;
+  color: rgb(81, 81, 81);
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+#street {
+  width: 100%;
+  background-color: #00798A;
+}
+#street .container {
+  width: 95%;
+}
+#street .textss {
+  padding: 30px;
+}
+#street .textss h1 {
+  color: white;
+  font-size: 60px;
+  padding-top: 20px;
+}
+#street .textss h3 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#street .texts {
+  padding: 30px;
+}
+#street .texts h1 {
+  padding-top: 20px;
+  font-size: 60px;
+  color: white;
+}
+#street .texts h3 {
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#ourplan {
+  width: 100%;
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6RjkYcDsIRRSUWo3nZ7IcsIuEs_ThGPLT8EeMFe6YwaP6Tjwg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ourplan .container {
+  width: 95%;
+  padding-top: 30px;
+}
+#ourplan .container .plantxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+#ourplan .container .plantxt h4 {
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+#ourplan .container .plantxt p {
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.cards .plansss {
+  background-color: rgb(206, 203, 203);
+}
+.cards .plansss p {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  color: grey;
+}
+.cards .plansss .basic {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  gap: 30px;
+  padding: 15px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+.cards .plansss .btnnnn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.cards .plansss .btnnnn button {
+  width: 400px;
+  color: white;
+  font-size: 25px;
+  border: none;
+}
+.cards .plansss .only {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #1F8A63;
+  font-size: 50px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+#wall {
+  width: 100%;
+  background-color: #00798A;
+}
+#wall .container {
+  width: 95%;
+}
+#wall .container .walltext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+}
+#wall .container .walltext h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 600;
+}
+#wall .container .walltext h3 {
+  color: white;
+  font-size: 30px;
+}
+
+.contact {
+  width: 100%;
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6RjkYcDsIRRSUWo3nZ7IcsIuEs_ThGPLT8EeMFe6YwaP6Tjwg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact .container {
+  width: 95%;
+  padding-top: 30px;
+}
+.contact .container .contacttxt h4 {
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.contact .container .contacttxt p {
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
